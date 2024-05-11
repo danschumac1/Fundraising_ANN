@@ -1,0 +1,2250 @@
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    main()
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    return self._apply(convert)
+    param_applied = fn(param)
+                    ^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    main()
+    main()
+    main()
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    return self._apply(convert)
+    return self._apply(convert)
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+           ^^^^^^^^^^^^^^^^^^^^
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    module._apply(fn)
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    module._apply(fn)
+    return t.to(
+           ^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    module._apply(fn)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+    param_applied = fn(param)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+                    ^^^^^^^^^
+    param_applied = fn(param)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    return t.to(
+           ^^^^^
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 110, in main
+    model = TabularModel(emb_sizes, len(cont_cols), 2, args.layers, args.dropout).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 159, in <module>
+    main()
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 129, in main
+    outputs = model(cats, conts)
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/FUNDRAISING/fundraising_cross_val_CA.py", line 76, in forward
+    return self.layers(x)
+           ^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dan/miniconda3/envs/danEnv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling `cublasCreate(handle)`
